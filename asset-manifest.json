@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pavedit-demo/static/css/main.119394e1.css",
+    "main.js": "/pavedit-demo/static/js/main.09ea7e1f.js",
+    "index.html": "/pavedit-demo/index.html",
+    "main.119394e1.css.map": "/pavedit-demo/static/css/main.119394e1.css.map",
+    "main.09ea7e1f.js.map": "/pavedit-demo/static/js/main.09ea7e1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.119394e1.css",
+    "static/js/main.09ea7e1f.js"
+  ]
+}
