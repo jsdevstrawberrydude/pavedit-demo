@@ -1,0 +1,280 @@
+{
+    "currentView": "about",
+    "recruiterView": "about",
+    "currentUser": "candidate",
+    "profile": {
+        "position": "Software Engineer",
+        "location": "San Francisco",
+        "firstName": "Dieu",
+        "lastName": "Buhendwa",
+        "picture": "https://media-exp1.licdn.com/dms/image/C5603AQH9oALHAO2nOQ/profile-displayphoto-shrink_800_800/0/1605420753319?e=1674691200&v=beta&t=BQcKV3b2vCijpEGoA3JSyVDHlwFjrQDBi5p10pvcg8U",
+        "matchedJobs": [],
+        "certificates": [],
+        "resumeLink": "https://cdn-images.zety.com/images/zety/landings/builder/resume-builder-template-valera@2x.png"
+    },
+    "recruiterProfile": {
+        "position": "Recruiter",
+        "location": "San Francisco",
+        "firstName": "Stock",
+        "lastName": "Photo",
+        "picture": "https://media.istockphoto.com/id/1366780933/photo/portrait-of-confident-man-in-black-turtleneck.jpg?s=2048x2048&w=is&k=20&c=VMGX400w0n2ybD_KDoWCB1B71Is2atPfrPpKWIWRRJI=",
+        "matchedJobs": [],
+        "certificates": []
+    },
+    "certificates": [
+        {
+            "id": 1,
+            "link": "https://www.coursera.org/professional-certificates/google-it-automation"
+        },
+        {
+            "id": 2,
+            "link": "https://www.coursera.org/specializations/data-science-fundamentals-python-sql"
+        },
+        {
+            "id": 3,
+            "link": "https://www.coursera.org/specializations/data-science-python"
+        },
+        {
+            "id": 4,
+            "link": "https://www.coursera.org/professional-certificates/ibm-data-science"
+        },
+        {
+            "id": 5,
+            "link": "https://www.coursera.org/learn/python-statistics-financial-analysis"
+        },
+        {
+            "id": 6,
+            "link": "https://www.coursera.org/specializations/aws-devops"
+        },
+        {
+            "id": 7,
+            "link": "https://www.coursera.org/projects/aws-s3-basics"
+        }
+    ],
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Software Engineer Python Automation",
+            "company": "Google",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 1,
+            "candidates": []
+        },
+        {
+            "id": 2,
+            "title": "Software Engineer Python Automation",
+            "company": "Apple",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 1,
+            "candidates": []
+        },
+        {
+            "id": 3,
+            "title": "Python Developer",
+            "company": "Vanguard",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 1,
+            "candidates": []
+        },
+        {
+            "id": 4,
+            "title": "Pipeline automation Engineer",
+            "company": "Amazon",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 1,
+            "candidates": []
+        },
+        {
+            "id": 5,
+            "title": "Software Engineer Python Automation",
+            "company": "Tesla",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 1,
+            "candidates": []
+        },
+        {
+            "id": 6,
+            "title": "Data Science Engineer",
+            "company": "Google",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 2,
+            "candidates": []
+        },
+        {
+            "id": 7,
+            "title": "Data Science Engineer",
+            "company": "Apple",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 2,
+            "candidates": []
+        },
+        {
+            "id": 8,
+            "title": "SQL Developer",
+            "company": "Vanguard",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 2,
+            "candidates": []
+        },
+        {
+            "id": 9,
+            "title": "Data Science Software Engineer",
+            "company": "Amazon",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 2,
+            "candidates": []
+        },
+        {
+            "id": 10,
+            "title": "Data Science Engineer",
+            "company": "Tesla",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 2,
+            "candidates": []
+        },
+        {
+            "id": 6,
+            "title": "Data Science Python Dev",
+            "company": "Google",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 3,
+            "candidates": []
+        },
+        {
+            "id": 7,
+            "title": "Data Science Python Dev",
+            "company": "Apple",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 3,
+            "candidates": []
+        },
+        {
+            "id": 8,
+            "title": "SQL/Python Developer",
+            "company": "Vanguard",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 3,
+            "candidates": []
+        },
+        {
+            "id": 9,
+            "title": "Data Science Software Engineer",
+            "company": "Amazon",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 3,
+            "candidates": []
+        },
+        {
+            "id": 10,
+            "title": "Data Science Python Dev",
+            "company": "Tesla",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 3,
+            "candidates": []
+        },
+        {
+            "id": 6,
+            "title": "Data Science Researcher/Engineer",
+            "company": "IBM",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 4,
+            "candidates": []
+        },
+        {
+            "id": 7,
+            "title": "Data Science Researcher/Engineer",
+            "company": "IBM",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 4,
+            "candidates": []
+        },
+        {
+            "id": 6,
+            "title": "FinTech Engineer",
+            "company": "Quant Labs",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 5,
+            "candidates": []
+        },
+        {
+            "id": 7,
+            "title": "Finance Analyst Python Dev",
+            "company": "WSJ",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 5,
+            "candidates": []
+        },
+        {
+            "id": 6,
+            "title": "Pipeline Automation Engineer",
+            "company": "Wag Hotels",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 6,
+            "candidates": []
+        },
+        {
+            "id": 7,
+            "title": "Pipeline Automation Engineer",
+            "company": "Discover",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 6,
+            "candidates": []
+        },
+        {
+            "id": 8,
+            "title": "Software Engineer",
+            "company": "Cloud Solutions",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 6,
+            "candidates": []
+        },
+        {
+            "id": 9,
+            "title": "Cloud Engineer",
+            "company": "CloudFlare",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 6,
+            "candidates": []
+        },
+        {
+            "id": 6,
+            "title": "Media Storage Engineer",
+            "company": "Amazon",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 7,
+            "candidates": []
+        },
+        {
+            "id": 7,
+            "title": "Media Storage Engineer",
+            "company": "Twitter",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 7,
+            "candidates": []
+        },
+        {
+            "id": 8,
+            "title": "Software Engineer (Assets)",
+            "company": "Meta",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 7,
+            "candidates": []
+        },
+        {
+            "id": 9,
+            "title": "Software Engineer",
+            "company": "Green Earth",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 7,
+            "candidates": []
+        },
+        {
+            "id": 10,
+            "title": "Software Engineer",
+            "company": "Coursera",
+            "link": "https://www.linkedin.com/jobs/collections/recommended/?currentJobId=3327134260",
+            "certId": 7,
+            "candidates": []
+        }
+    ]
+}

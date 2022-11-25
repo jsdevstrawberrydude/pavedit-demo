@@ -1,8 +1,9 @@
+* {
+  font-family: 'Didact Gothic', sans-serif;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,85 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  width: 45%;
+  margin: auto;
+}
+
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavBar button {
+  padding: 10px 14px;
+  width: 200px;
+  vertical-align: center;
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+  color: navy;
+}
+
+.NavBar button.selected {
+  border-bottom: 2px solid orange;
+}
+
+.NavBar h1 {
+  color: navy;
+}
+
+.orange {
+  color: orange;
+}
+
+.AdminPanel {
+  position: absolute;
+  left: 2px;
+  border: 1px solid black;
+}
+
+p {
+  font-size: larger;
+}
+
+.course-link {
+  display: block;
+}
+
+.JobPanel {
+  vertical-align: center;
+  box-shadow: 0px 0px 10px gray;
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+
+.RecruiterJobPanel {
+  vertical-align: center;
+  box-shadow: 0px 0px 10px gray;
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+}
+
+.Content img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 250px;
+}
+
+.RecruiterContent img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 250px;
+}
+
+.Candidatecard {
+  box-shadow: 0px 0px 10px gray;
+  padding: 8px;
+  margin-bottom: 4px;
+  border-radius: 5px;
 }

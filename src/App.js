@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState, useContext } from 'react';
+import data from './assets/data.json';
+import AdminPanel from './components/AdminPanel';
+import Content from './components/Content';
+import NavBar from './components/NavBar';
+import RecruiterContent from './components/RecruiterContent';
+import { AppContext } from './context/AppContext';
 
-function App() {
+export function App() {
+  const [state, setState] = useState(data);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContext.Provider value={{ state, setState }}>
+      <div className="App">
+        <NavBar />
+        <AdminPanel />
+        <Content />
+      </div>
+    </AppContext.Provider>
   );
 }
 
