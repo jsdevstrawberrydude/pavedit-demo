@@ -29,8 +29,8 @@ function AdminPanel() {
             <input type="number" min="1" max="10" onChange={onChangeHandler} />
             <button onClick={addCert}>Add Certificate</button>
             <br></br>
-            <button onClick={() => switchView("candidate")}>Switch to Candidate</button>
-            <br></br>
+            {/* <button onClick={() => switchView("candidate")}>Switch to Candidate</button>
+            <br></br> */}
             {/* <button onClick={() => switchView("recruiter")}>Switch to Recruiter</button> */}
         </div>
     );
