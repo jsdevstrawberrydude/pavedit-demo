@@ -41,6 +41,48 @@ code {
   color: navy;
 }
 
+.Home {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.Home h1 {
+  color: navy;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 25%;
+}
+.Home .inputs {
+  display:flex;
+  justify-content: center;
+}
+.Home .inputs input {
+  width:300px;
+}
+.AutoCompleter {
+  display:flex;
+  justify-content:center;
+}
+.AutoCompleter .autocompleter-box {
+  outline:1px solid black;
+  width:306px;
+  border:2px solid thin black;
+}
+.AutoCompleter .placeholder {
+  width:24px;
+  height:27.5px;
+  padding:1px 6px;
+  border:2px solid transparent;
+}
+.autocompleter-box span{
+  visibility: hidden;
+}
+.autocomplete-row { 
+  padding-left:4px;
+  padding-top:4px;
+}
+
 .orange {
   color: orange;
 }
@@ -75,7 +117,7 @@ p {
   border-radius: 5px;
 }
 
-.Content img {
+.ProfilePage img {
   border-radius: 50%;
   border: 1px solid black;
   width: 250px;
@@ -92,4 +134,59 @@ p {
   padding: 8px;
   margin-bottom: 4px;
   border-radius: 5px;
+}
+.JobListItem {
+  box-shadow:2px 4px 4px gray;
+  border:1px solid gray;
+  border-radius:5px;
+  padding:10px;
+  margin:4px;
+}
+.CertificateCard {
+  display:flex;
+  flex-direction:column;
+  border:1px solid gray;
+  box-shadow:2px 4px 4px gray;
+  padding:10px;
+  width:114px;
+  font-size:medium;
+  margin-right:6px;
+}
+.CertificateCard img{
+  width:100px;
+  height:100px;
+}
+.certificate-carousel{
+  display:flex;
+  justify-content: space-evenly;
+  margin-bottom:24px;
+}
+.actual-car {
+  display:flex;
+  width:710px;
+}
+.green {
+  color:green;
+}
+.blue-button {
+  padding:10px 15px;
+  color:white;
+  background-color:blue;
+  border-radius:5px;
+  border:none;
+}
+.applied {
+  display:flex;
+  align-items:center;
+}
+.white { 
+  color:white;
+}
+.gray {
+  color:gray;
+
+}
+.blue{
+  color:blue;
+  
 }

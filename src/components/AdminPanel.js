@@ -7,21 +7,21 @@ function AdminPanel() {
         context.setState({ ...context.state, currentUser: param })
     }
     const onChangeHandler = (event) => {
-        console.log(event.target.value)
         setSlide(parseInt(event.target.value))
     }
     const addCert = () => {
-        const temp = { ...context.state }
-        temp.profile.certificates.push(slide)
-        temp.profile.matchedJobs = []
-        for (let job of context.state.jobs) {
-            if (context.state.profile.certificates.includes(job.certId)) {
-                temp.profile.matchedJobs.push(job);
+        const temp = { ...context }
+        const tempCertificates = new Set([...context.state.profile.certificates]);
+        tempCertificates.add(slide)
+        const tempAppliedJobs = new Set();
+        const tempJobs = [...context.state.jobs]
+        for (let job of tempJobs) {
+            if (tempCertificates.has(job.certId)) {
+                tempAppliedJobs.add(job.id);
                 job.candidates.push(context.state.profile)
             }
         }
-        console.log(temp.profile.matchedJobs)
-        context.setState({ ...temp })
+        context.setState({ ...context.state, jobs: [...tempJobs], profile: { ...context.state.profile, appliedJobs: [...Array.from(tempAppliedJobs)], certificates: [...Array.from(tempCertificates)] } })
     }
     return (
         <div className="AdminPanel">

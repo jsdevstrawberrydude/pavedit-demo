@@ -2,6 +2,11 @@ import { AppContext } from '../context/AppContext';
 import { useContext } from 'react';
 import JobPanel from './JobPanel';
 import RecruiterContent from './RecruiterContent';
+import JobPage from './JobPage';
+import JobDetails from './JobDetails';
+import ProfilePage from './ProfilePage';
+import ExplorePage from './ExplorePage';
+import MatchesPage from './MatchesPage';
 function Content() {
     const context = useContext(AppContext);
     const onChangeHandler = (event) => {
@@ -30,34 +35,21 @@ function Content() {
                         matched via the certificate requirements and not have to go searching so much for candidates.
                     </p></> : null}
                 {context.state.currentView === "explore" ? <>
-                    <h1>Here are some certificates required for : {context.state.profile.position} jobs </h1>
-                    <div className="certificate-list">
-                        <ol>
-                            {context.state.certificates.map((cert, index) => (
-                                <li key={index}><a className="course-link" href={cert.link} >{cert.link}</a></li>
-                            ))}
-                        </ol>
-                    </div>
+                    <ExplorePage />
                 </> : null}
-                {context.state.currentView === "matched jobs" ? <>
-                    <h1>Here are the jobs you have been applied for:</h1>
-                    {context.state.profile.matchedJobs.map((job, index) => (
-                        <JobPanel job={job} key={index} />
-                    ))}
-
+                {context.state.currentView === "matches" ? <>
+                    <MatchesPage />
                 </> : null}
                 {context.state.currentView === "profile" ? <>
-                    <img src={context.state.profile.picture} alt="" />
-                    <h1>{context.state.profile.firstName} {context.state.profile.lastName}</h1>
-                    <h3>I want to be a:</h3>
-                    <input type="text" name="position" placeholder={context.state.profile.position} />
-                    <h3>I am looking for jobs in:</h3>
-                    <input type="text" name="location" placeholder={context.state.profile.location} />
-                    <br />
-                    <br />
-                    <button>Upload Resume</button>
+                    <ProfilePage />
+                </> : null}
+                {context.state.currentView === "search" ? <>
+                    <JobPage />
                 </> : null}
             </> : <RecruiterContent />}
+            {context.state.currentView === "jobdetail" ? <>
+                <JobDetails job={context.state.selectedJob} />
+            </> : null}
 
         </div>
     );
