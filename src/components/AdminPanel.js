@@ -31,7 +31,7 @@ function AdminPanel() {
             <br></br>
             <button onClick={() => switchView("candidate")}>Switch to Candidate</button>
             <br></br>
-            <button onClick={() => switchView("recruiter")}>Switch to Recruiter</button>
+            {/* <button onClick={() => switchView("recruiter")}>Switch to Recruiter</button> */}
         </div>
     );
 }
