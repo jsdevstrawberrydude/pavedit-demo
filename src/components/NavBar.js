@@ -24,7 +24,7 @@ function NavBar() {
                 <button className={context.state.currentView === "profile" ? "header selected" : "header"} onClick={() => onClickHandler("profile")}>Profile</button>
             </> : <>
                 <button className={context.state.recruiterView === "about" ? "header selected" : "header"} onClick={() => ronClickHandler("about")}>About</button>
-                <button className={context.state.recruiterView === "jobs" ? "header selected" : "header"} onClick={() => ronClickHandler("jobs")}>Jobs</button>
+                <button className={context.state.recruiterView === "jobs" ? "header selected" : "header"} onClick={() => ronClickHandler("jobs")}>Tracked Jobs</button>
                 <button className={context.state.recruiterView === "profile" ? "header selected" : "header"} onClick={() => ronClickHandler("profile")}>Profile</button>
             </>}
 

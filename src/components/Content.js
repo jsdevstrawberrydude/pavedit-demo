@@ -1,6 +1,5 @@
 import { AppContext } from '../context/AppContext';
 import { useContext } from 'react';
-import JobPanel from './JobPanel';
 import RecruiterContent from './RecruiterContent';
 import JobPage from './JobPage';
 import JobDetails from './JobDetails';
@@ -15,12 +14,13 @@ function Content() {
     return (
         <div className="Content">
             {context.state.currentUser === "candidate" ? <>
-                {context.state.currentView === "about" ? <><p>
-                    PavedIt is a platform designed to make the job search easier for those starting out
-                    and getting into the job market. Job hunting is daunting especially for those that
-                    may not have had opportunities to learn and grow with a steady career path. Life can
-                    often be random and strewn with obstacles, but PavedIt is here to help.
-                </p>
+                {context.state.currentView === "about" ? <>
+                    <p>
+                        PavedIt is a platform designed to make the job search easier for those starting out
+                        and getting into the job market. Job hunting is daunting especially for those that
+                        may not have had opportunities to learn and grow with a steady career path. Life can
+                        often be random and strewn with obstacles, but PavedIt is here to help.
+                    </p>
                     <p>
                         Often times when applying for jobs, there is some research involved to determine
                         which skills one may need to increase the chances of landing a job. PavedIt can
@@ -46,10 +46,11 @@ function Content() {
                 {context.state.currentView === "search" ? <>
                     <JobPage />
                 </> : null}
+                {context.state.currentView === "jobdetail" ? <>
+                    <JobDetails job={context.state.selectedJob} />
+                </> : null}
             </> : <RecruiterContent />}
-            {context.state.currentView === "jobdetail" ? <>
-                <JobDetails job={context.state.selectedJob} />
-            </> : null}
+
 
         </div>
     );

@@ -1,6 +1,9 @@
 import { AppContext } from '../context/AppContext';
 import { useContext } from 'react';
 import RecruiterJobPanel from './RecruiterJobPanel';
+import RecruiterProfilePage from './RecruiterProfilePage';
+import RecruiterTrackedJobsPage from './RecruiterTrackedJobsPage';
+import RecruiterJobDetails from './RecruiterJobDetails';
 function RecruiterContent() {
     const context = useContext(AppContext);
     const onChangeHandler = (event) => {
@@ -28,13 +31,13 @@ function RecruiterContent() {
                     matched via the certificate requirements and not have to go searching so much for candidates.
                 </p></> : null}
             {context.state.recruiterView === "jobs" ? <>
-                <RecruiterJobPanel job={context.state.jobs[0]} />
+                <RecruiterTrackedJobsPage />
+            </> : null}
+            {context.state.recruiterView === "jobdetail" ? <>
+                <RecruiterJobDetails job={context.state.selectedJob} />
             </> : null}
             {context.state.recruiterView === "profile" ? <>
-                <img src={context.state.recruiterProfile.picture} alt="" />
-                <h1>{context.state.recruiterProfile.firstName} {context.state.recruiterProfile.lastName}</h1>
-                <br />
-                <br />
+                <RecruiterProfilePage />
             </> : null}
         </div>
     );
