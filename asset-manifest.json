@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pavedit-demo/static/css/main.7735ce5b.css",
-    "main.js": "/pavedit-demo/static/js/main.3c7b0125.js",
+    "main.css": "/pavedit-demo/static/css/main.458abe1b.css",
+    "main.js": "/pavedit-demo/static/js/main.cd7291ea.js",
     "static/media/qr_code.png": "/pavedit-demo/static/media/qr_code.d733ffe7b84d064bac1a.png",
     "index.html": "/pavedit-demo/index.html",
-    "main.7735ce5b.css.map": "/pavedit-demo/static/css/main.7735ce5b.css.map",
-    "main.3c7b0125.js.map": "/pavedit-demo/static/js/main.3c7b0125.js.map"
+    "main.458abe1b.css.map": "/pavedit-demo/static/css/main.458abe1b.css.map",
+    "main.cd7291ea.js.map": "/pavedit-demo/static/js/main.cd7291ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.7735ce5b.css",
-    "static/js/main.3c7b0125.js"
+    "static/css/main.458abe1b.css",
+    "static/js/main.cd7291ea.js"
   ]
 }
